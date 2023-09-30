@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Jim's Dice Filter",
+    "description": "Filters out external job listings and jobs already applied for.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.dice.com/jobs*"
+            ],
+            "js": [
+                "main.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": "icon.png"
+    }
+}

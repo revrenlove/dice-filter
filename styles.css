@@ -1,0 +1,15 @@
+article.hidden {
+    display: none;
+}
+
+p.hide-listing {
+    margin: 10px;
+    background-color: orange;
+    border-radius: 3pt;
+    padding: 10px;
+}
+
+p.hide-listing:hover {
+    cursor: pointer;
+    background-color: orangered;
+}
