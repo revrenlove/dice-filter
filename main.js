@@ -8,6 +8,7 @@ if (!allHiddenArticles) {
         'Jobot',
         'Robert Half',
         'Motion Recruitment',
+        'Providence Health & Services',
     ];
 
     console.info('The Dice Filter Extension has been activated...');
